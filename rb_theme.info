@@ -1,0 +1,39 @@
+name = Main theme
+description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation] = Навигация
+regions[header] 	= Шапка
+regions[under_header] 	= Регион под навигацией
+regions[up_content] 	= Регион заголовка h1 и документа
+regions[content] 	= Контент
+regions[under_main] 	= Регион под main
+regions[under_main2] 	= Регион под main 2
+regions[footer] 	= Подвал
+
+regions[schedule] 	= Регион для вcплывающего меню
+regions[contacts] 	= Регион Контакты во всплывающем меню
+
+regions[subregions] = Активные регионы не выводимые на прямую
+regions[metaform] 	= Всплывающие формы
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = styles/style.css
+stylesheets[all][] = styles/substyle.css
+stylesheets[all][] = styles/media.css
+
+scripts[] = scripts/main.js
+scripts[] = scripts/extra.js
+scripts[] = scripts/lang-dependencies.js
+scripts[] = scripts/ymaps.js
+scripts[] = scripts/maskedinput.js
